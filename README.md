@@ -36,12 +36,22 @@ First of all, you must clone this repository and have the node.js installed in y
 
 ### 🔧 "What did you use to create this?" 
 I used the following commands to create this project:
-    ```
+<ul>
+  <li>
+    
+     ```
     npm init 
     ```
-     ```
+    
+  </li>
+  <li>
+    
+    ```
     npm install express googleapis nodemon 
     ```
+    
+  </li>
+</ul>
 
 ### 🤔 "Why did you do this?" 
 I did this for a challenge in the selection process for an intern vacancy for the company TuntsRocks.
