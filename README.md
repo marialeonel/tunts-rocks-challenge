@@ -2,9 +2,11 @@
 An API developed with node.js, which is used to connect to a Google Sheets spreadsheet using the Google Sheets API as well. Rules that were used to build the code:
 <ul>
   <li>Calculate the situation of each student based on the average of the 3 tests (P1, P2 and P3), according to the table:
-   <li> Average (m) Situation: m < 5 - Failed by Grade</li>
-   <li> 5 <= m < 7 - Final Exam </li>
-   <li> m >= 7 - Approved</li>
+    <ul>
+      <li> Average (m) Situation: m < 5 - Failed by Grade</li>
+     <li> 5 <= m < 7 - Final Exam </li>
+     <li> m >= 7 - Approved</li>
+    </ul>
   </li>
   <li> If the number of absences exceeds 25% of the total number of classes, the student will have the status "Failed due to Absence", regardless of the average.</li>
   <li> If the situation is "Final Exam", it is necessary to calculate the "Final Approval Grade" (naf) for each student according to the following formula: 5 <= (m + naf)/2</li>
